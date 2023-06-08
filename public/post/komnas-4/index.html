@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready text-sm lg:text-base"
+  style="--bg: #fbfbfb"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Komputer dan Masyarakat - Pertemuan 4 - Muhamad Aliyudin</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  <meta name="description" content="KOMPUTER DAN PENDIDIKAN Teknologi Informasi dan Komunikasi sudah digunakan didunia pendidikan Indonesia sejak lama. Berbagai institusi pendidikan saling bersaing untuk memanfaatkan teknologi seperti membangun jaringan internet, sistem pembelajaran online (e-learning), infrastructure penggunaan hardware, pengadaan software, dsb. Pendidikan yang pada awalnya bertatap muka antara siswa dengan guru tentunya kemungkinan besar di masa yang akan datang akan beralih menjadi bertatap layar yang kita sering sebut E-learning. Dampak E-learning terhadap metode pendidikan masa yang akan datang yaitu pendidikan bersifat lebih luwes (fleksibel), lebih terbuka." />
+  <meta name="author" content="Aliyudin" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-roan-six.vercel.app/main.min.css" />
+
+  
+
+  
+     
+  <link rel="preload" as="image" href="https://hugo-roan-six.vercel.app/theme.png" />
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://i.ibb.co/JQtXfM2/v914-ning-27.jpg" />
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://hugo-roan-six.vercel.app/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-roan-six.vercel.app/instagram.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-roan-six.vercel.app/linkedin.svg" />
+  
+  <link rel="preload" as="image" href="https://hugo-roan-six.vercel.app/mastodon.svg" />
+  
+  
+
+  
+  
+
+  
+  <link rel="icon" href="https://hugo-roan-six.vercel.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hugo-roan-six.vercel.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.113.0">
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Komputer dan Masyarakat - Pertemuan 4">
+<meta itemprop="description" content="Komputer dan Masyarakat"><meta itemprop="datePublished" content="2023-06-07T11:43:47+07:00" />
+<meta itemprop="dateModified" content="2023-06-07T11:43:47+07:00" />
+<meta itemprop="wordCount" content="2444">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Komputer dan Masyarakat - Pertemuan 4"/>
+<meta name="twitter:description" content="Komputer dan Masyarakat"/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://alydn20.github.io/komnas"
+      >Muhamad Aliyudin</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = `"#fbfbfb"`.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/Malydn20"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/alydn2/"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/muhamad-aliyudin-b5b16620b/"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./mastodon.svg)"
+        href="https://aliyudin.skom.id"
+        target="_blank"
+        rel="me"
+      >
+        mastodon
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pb-24 pt-16 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">Komputer dan Masyarakat - Pertemuan 4</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Jun 7, 2023</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Aliyudin</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="komputer-dan-pendidikan">KOMPUTER DAN PENDIDIKAN</h1>
+<p>Teknologi Informasi dan Komunikasi sudah digunakan didunia pendidikan Indonesia sejak lama. Berbagai institusi pendidikan saling bersaing untuk memanfaatkan teknologi seperti membangun jaringan internet, sistem pembelajaran online (e-learning), infrastructure penggunaan hardware, pengadaan software, dsb.
+Pendidikan yang pada awalnya bertatap muka antara siswa dengan guru tentunya kemungkinan besar di masa yang akan datang akan beralih menjadi bertatap layar yang kita sering sebut E-learning. Dampak E-learning terhadap metode pendidikan masa yang akan datang yaitu pendidikan bersifat lebih luwes (fleksibel), lebih terbuka. Materi-materi pembelajaran yang ada bisa di akses oleh siapa saja. Jaringan informasi sangat menentukan arah dan bentuk pendidikan masa mendatang. Pendidikan yang memungkinkan adanya interaksi, kolaborasi serta tidak berorientasi pada gedung sekolah.</p>
+<ol>
+<li>Perubahan Pola Pendidikan</li>
+</ol>
+<p>Memasuki abad ke-21 perubahan pada dunia pendidikan cenderung terjadi, hal ini disebabkan oleh munculnya inovasi dunia pendidikan yang terus berkembang.
+B.	Uno pada tahun 2010 berkata bahwa pendidikan terutama di Indonesia akan mengarah kepada hal berikut :
+a.	Mulai dikembangkannya pendidikan secara terbuka, seperti saat ini berlakunya kampus merdeka dalam menjalankan proses belajar mengajar.
+b.	Sharing resource dimana adanya kegiatan yang dilakukan bersama antara lembaga pendidikan dengan sekelompok perpustakaan yang tergabung</p>
+<p>dalam sebuah jaringan yang memiliki tujuan mengurangi biaya pengembangan koleksi dan meningkatkan layanan.
+c.	Penerapan teknologi multimedia terbaru untuk menggantikan teknologi lamanya, seperti televisi atau radio.
+Perkembangan teknologi dan informasi mempunyai pengaruh besar terhadap dunia pendidikan. Perubahan pada metode pendidikan yang disebabkan oleh perkembangan teknologi dan informasi misalnya metode kegiatan belajar mengajar jarak jauh. Selain kegiatan belajar mengajar jarak jauh, mahasiswa dapat mengecek nilai, biaya kuliah, jadwal kuliah, ataupun tugas. Kemudahan dalam dunia pendidikan yang disajikan oleh perkembangan TIK ini bertujuan untuk meningkatkan kemampuan serta keterampilan siswa maupun mahasiswa.
+Pemanfaatan teknologi pembelajaran jarak jauh disebut sebagai E- learning. Metode belajar ini merupakan proses belajar mengajar secara online. Peserta didik dapat belajar mandiri berbasis kreativitasnya masing-masing yang dilakukan melalui E-learning dimanapun dan kapapun mereka dapat mengaksesnya asal terhubung dengan jaringan. E-learning diharapkan dapat membuat siswa lebih mengeksplorasi kemampuan mereka dan ilmu pengetahuan mereka.
+2.	Platform Pembelajaran Online</p>
+<p>Saat ini dengan adanya pandemic Covid-19, masyarakat tidak boleh melakukan perkumpulan dan belajar mengajar dilakukan semua secara daring atau online. Tentu saja hal ini sangat mengganggu kelancaran kegiatan proses belajar mengajar yang sedianya rutin diadakan 5 sampai 6 kali setiap minggu. Maka untuk menghindari hal tersebut, metode kegiatan belajar mengajar jarak jauh sangat memungkinkan untuk dilaksanakan. Kegiatan belajar mengajar jarak jauh ini menggunakan jaringan internet. Metode tersebut yaitu E-learning. Keuntungan dari E-learning misalnya sumber ilmu atau sumber pengetahuan dapat dari siapa saja yang mau membagikan ilmunya yang ada dari berbagai belahan dunia. Dalam proses belajar menggunakan metode e-learning, peserta didik dapat berinteraksi dengan pakar, baik itu melalui email, mailling list, news group, world wide web (www), serta memanfaatkan fasilitas seperti: e-book, e- library.</p>
+<p>Berberapa	aplikasi	atau	platform	yang	menyediakan	metode pembelajaran secara e-learning antara lain sebagai berikut :
+a.	Microsoft Office 365</p>
+<p>Dalam aplikasi ini menggunakan email dengan domain dari sekolah. Microsoft memberikan kemudahan untuk dapat mengakses secara realtime aplikasi seperti MS.Word, Ms. Excel, Power Point, dan sebagainya.
+Kelebihannya antara lain :</p>
+<ol>
+<li>Fitur selalu up to date dan diperbaharui tanpa biaya tambahan.</li>
+<li>Hasil kerja dapat disimpan pada cloud storage OneDrive 1TB.</li>
+<li>Dapat menyimpan data kapan saja dan dari mana saja karena mendapatkan bonus 1TB cloud storage.</li>
+<li>Dapat fasilitas free call skype selama 60 menit setiap bulan.</li>
+<li>Dapat diakses lebih dari 1 PC.</li>
+<li>Dapat dukungan penuh dari office melalui chat, email dan telepon. Kekurangan aplikasi microsoft office 365 :</li>
+<li>Harus berlangganan dan membayar biaya langganan sesuai ketentuan pihak microsoft office 365.</li>
+<li>Harus selalu terhubung dengan internet agar mendapatkan update fitur.
+b.	Aplikasi Ruang Guru</li>
+</ol>
+<p>Aplikasi Ruang guru sering beredar di komersial televisi, mereka banyak menggencarkan program-program belajar secara online melalui bimbingan online-nya. Layanan kelas virtual, video belajar berlangganan, platform ujian online, marketplace les privat, serta materi-materi pendidikan lainnya merupakan fitur aplikasi ini yang bisa diakses melalui web dan aplikasi.
+Kelebihan aplikasi Ruang Guru :</p>
+<ol>
+<li>
+<p>Penampilan menarik.</p>
+</li>
+<li>
+<p>Materi belajar yang cukup lengkap.</p>
+</li>
+<li>
+<p>Tampilan dan kualitas video yang bagus.</p>
+</li>
+<li>
+<p>Pembelajaran tidak membosankan siswa karena siswa cukup menonton saja.</p>
+</li>
+<li>
+<p>Tersedia rangkuman materi yang mudah dipahami.</p>
+</li>
+<li>
+<p>Terdapat kuis dalam video yang dapat membantu penyerapan materi oleh siswa.</p>
+</li>
+<li>
+<p>Fitur latihan soal yang dapat membantu penyerapan materi oleh siswa.</p>
+</li>
+<li>
+<p>Terdapat sosial media yang mendukung interaksi antar siswa.</p>
+</li>
+<li>
+<p>Terdapat tutor online dan kelas belajar streaming.</p>
+</li>
+<li>
+<p>Terdapat konseling gratis.</p>
+</li>
+</ol>
+<p>Kekurangan aplikasi Ruang Guru :</p>
+<ol>
+<li>Volume bantuan suara terlalu tinggi.</li>
+<li>Antarmuka masih tampak terlalu ramai.</li>
+<li>Penyampaian video terlalu childish untuk siswa SMA.</li>
+<li>Terlalu banyak iklan promosi yang muncul.</li>
+</ol>
+<p>c.	Rumah Belajar</p>
+<p>Adalah aplikasi yang dapat digunakan oleh siswa untuk belajar online, yang dibuat dan dikembangkan oleh Kementrian Pendidikan dan Kebudayaan (Kemendikbud). Dengan memanfaatkan teknologi, siswa memiliki alternatif lain untuk tetap belajar karena aplikasi ini juga menyediakan berbagai sumber ilmu pengetahuan. Fitur yang ada pada aplikasi ini sama seperti kelengkapan sekolah dalam bentuk online. Aplikasi ini dapat digunakan secara gratis. Aplikasi rumah belajar bisa diakses di laman belajar.kemendikbud.go.id melalui mobile maupun PC.
+Kelebihan aplikasi rumah belajar adalah :</p>
+<ol>
+<li>
+<p>Berbagai macam konten yang dibuat sangat menarik.</p>
+</li>
+<li>
+<p>Bisa digunakan secara offline maupun online.</p>
+</li>
+<li>
+<p>Dilengkapi dengan tujuan pembelajaran yang jelas.</p>
+</li>
+<li>
+<p>Sangat interaktif.</p>
+</li>
+<li>
+<p>Gratis.</p>
+</li>
+<li>
+<p>Menampilkan nilai hasil kerja siswa sehingga siswa makin tertantang.</p>
+</li>
+<li>
+<p>Terdapat penjelasan soal-soal yang dapat dipelajari siswa.</p>
+</li>
+<li>
+<p>Terdapat percobaan untuk mata pelajaran matematika dan tidak hanya untuk mata pelajaran IPA.</p>
+</li>
+<li>
+<p>Semua planet dapat diexplore pada wahana antariksa.</p>
+</li>
+<li>
+<p>Diklat online menyenangkan.</p>
+</li>
+<li>
+<p>Terdapat diklat di berbagai daerah yang diupdate.</p>
+</li>
+<li>
+<p>Diklat untuk memperkaya keprofesional para pendidik.</p>
+</li>
+<li>
+<p>Guru diberi kebebasan untuk mengkreasi kelas semenarik mungkin.</p>
+</li>
+<li>
+<p>Penilaian tugas, kuis dan latihan yang menarik.</p>
+</li>
+<li>
+<p>Aplikasi mudah dipahami.</p>
+</li>
+</ol>
+<p>Kekurangan aplikasi rumah belajar adalah :</p>
+<ol>
+<li>Materi belum semuanya tersedia.</li>
+<li>Terbatasnya pilihan buku yang dapat diunduh.</li>
+<li>Sulit menuliskan soal pada bank soal.</li>
+<li>Bank soal belum terlink ke kelas maya.</li>
+<li>Masih terbatasnya jumlah percobaan pada fitur laboratorium.</li>
+<li>Tidak semua budaya disajikan pada peta budaya.</li>
+<li>Web sangat berat pada saat membuka fitur antariksa.</li>
+<li>Tidak semua diklat bisa diikuti, khususya diklat yang berada di luar daerah.</li>
+<li>Sulit menulis jawaban pada kelas maya yang melibatkan equation.</li>
+<li>Kelas maya belum terlink ke bank soal.</li>
+</ol>
+<p>d.	Meja Kita</p>
+<p>Aplikasi belajar online meja kita memiliki fasilitas ruang diskusi untuk interaksi antara siswa dan guru mereka. Materi pembelajaran yang disediakan oleh aplikasi meja kita yaitu materi jenjang pendidikan SD sampai SMA. Untuk mengakses materi pembelajaran di meja kita tidak dipungut biaya. Terdapat banyak catatan yang diupload oleh siswa lain sehingga memperbanyak materi pembelajaran. Siswa dapat belajar dari rumah dan sangat mendukung program pemerintah yang mewajibkan siswa belajar dari rumah pada saat pandemik untuk mengurangi penyebaran virus corona. Kegiatan diaolog, mengerjakan tugas serta sharing pengetahuan atau catatan masih bisa dilakukan apabila menggunakan aplikasi ini meskipun diharuskan untuk belajar dari rumah.
+Kelebihan aplikasi meja kita adalah :</p>
+<ol>
+<li>
+<p>Siswa bisa bertukar catatan atau rumus dengan siswa lain yang berbeda sekolah maupun yang berbeda daerah.</p>
+</li>
+<li>
+<p>Terdapat fitur diskusi antara siswa.</p>
+</li>
+<li>
+<p>Mendapatkan penghasilan tambahan bagi siswa yang bisa menjawab pertanyaan siswa lain atau siswa yang membagikan catatannya ke aplikasi meja kita.
+Kekurangan aplikasi meja kita adalah :</p>
+</li>
+<li>
+<p>Penggunaan aplikasi meja kita mengarah ke bisnis atau bersifat komersial karena terdapat fitur yang bayar dan membayar.</p>
+</li>
+<li>
+<p>Rentannya menyontek jawaban siswa lain dalam mengerjakan suatu soal.
+e.	Edmodo</p>
+</li>
+</ol>
+<p>Aplikasi ini mengutamakan privasi seorang siswa. Pada awalnya edmodo merupakan platform mikroblogging pribadi yang kemudian dikembangkan untuk kegiatan proses belajar mengajar siswa dan guru. Pertukaran catatan, dokumen dan tautan bisa dilakukan antara guru dengan siswa. Pada aplikasi ini juga seorang guru bisa memberikan tugas, peringatan serta acara kepada siswa dan guru lainnya.
+Kelebihan aplikasi edmodo :</p>
+<ol>
+<li>Tampilan sederhana sehingga memudahkan pengguna.</li>
+<li>Dapat membagikan file dengan format PDF, pptx, swf, html, dan sebagainya.</li>
+<li>Hadir dalam bentuk aplikasi yang dapat dibuka pada smartphone. Kekurangan aplikasi edmodo :</li>
+<li>Tidak terintegrasi dengan berbagai jenis sosial media.</li>
+<li>Hanya tersedia dalam bahasa inggris.</li>
+<li>Tidak memilki fasilitas video conference.</li>
+</ol>
+<p>f.	Moodle</p>
+<p>Moodle merupakan platform website untuk e-learning, dimana para siswa mendapatkan pembelajaran yang telah disediakan dalam kelas digital. Seorang guru bisa membuat materi pembelajaran, serta tugas kepada siswa.
+Kelebihan aplikasi moodle :</p>
+<ol>
+<li>
+<p>Networking dan Security-nya yang dapat diatur sendiri.</p>
+</li>
+<li>
+<p>Ruang akses dapat dibatasi dengan jaringan yang dibuat dan dapat memiliki hak akses masing-masing.</p>
+</li>
+<li>
+<p>Sistem pembelajaran dapat disesuaikan oleh kebutuhan pengguna.</p>
+</li>
+<li>
+<p>Fitur cukup lengkap dan baik untuk proses pembelajaran jarak jauh.</p>
+</li>
+<li>
+<p>Proses customize yang mudah dan banyak.</p>
+</li>
+<li>
+<p>Terdapat fitur lesson yang sangat fleksible sehingga mempermudah guru dan dosen untuk mengajarkan sebuah materi.
+Kekurangan aplikasi moodle :</p>
+</li>
+<li>
+<p>Harus memiliki pemahaman tentang sistem pada moodle.</p>
+</li>
+<li>
+<p>Perlunya tenaga ahli sebagai administrator untuk pemeliharaan aplikasi dan pembangunan sistem e-leaningnya.</p>
+</li>
+<li>
+<p>Membutuhkan perangakat yang cukup mahal dalam penggunaannya.
+g.	SEVIMA EdLink</p>
+</li>
+</ol>
+<p>Aplikasi ini membantu mahasiswa dan dosen untuk berbagi materi kuliah, tugas serta file lainnya dengan mudah. Dosen bisa membuat forum diskusi, memberikan tugas kepada mahasiswa. Mahasiswa bisa memberikan pesan pribadi serta memberikan file kepada dosen maupun mahasiswa lainnya.
+Kelebihan aplikasi SEVIMA EdLink :</p>
+<ol>
+<li>Terdapat fitur reminder jadwal perkuliahan sehingga pengguna tidak ketinggalan materi.</li>
+<li>Terdapat fitur diskusi kelas. Kekurangan aplikasi SEVIMA EdLink :
+Aplikasi sangat tergantung pada kecepatan internet.</li>
+</ol>
+<p>h.	Google Classroom</p>
+<p>Pemberian dan penyelesaian tugas pada aplikasi ini bisa dilakukan melalui google drive. Pada aplikasi ini pemberitahuan disampaikan melalui gmail.
+Kelebihan aplikasi gogle classroom :</p>
+<ol>
+<li>
+<p>Mudah digunakan oleh pemula sehingga proses belajar mengajar lebih efisien.</p>
+</li>
+<li>
+<p>File tersimpan di dalam google drive sehingga tidak ada kekhawatiran file hilang.
+Kekurangan aplikasi google classroom :</p>
+</li>
+<li>
+<p>Tampilan kurang menarik.</p>
+</li>
+<li>
+<p>Waktu pengiriman tugas dapat diatur, sehingga masih terdapat siswa yang sengaja mengatur waktu terlambat dalam pengumpulan tugas.
+i.	Kelas Kita</p>
+</li>
+</ol>
+<p>Aplikasi ini memungkinkan pengguna untuk berinteraksi dengan pengguna lain karena memiliki fitur sosial. Kelas kita bisa digunakan untuk membagi materi belajar formal, meningkatkan kemampuan serta keahlian dengan cara berbagi materi pembelajaran.
+Kelebihan aplikasi kelas kita :</p>
+<ol>
+<li>Siswa dapat memilih kelas sesuai minat sendiri.</li>
+<li>Terdapat fitur sosial media sehingga siswa bisa berinteraksi.</li>
+<li>Dapat digunakan oleh berbagai kalangan.</li>
+<li>Aplikasi gratis.</li>
+<li>Kelas dapat diatur menjadi kelas umum maupun kelas khusus.</li>
+<li>Dapat penghasilan tambahan dari hasil kontribusi ikut membuat kelas gratis.</li>
+<li>Dapat sertifikat digital.</li>
+</ol>
+<p>Kekurangan aplikasi kelas kita adalah :</p>
+<p>Penggunaan aplikasi kelas kita bisa mengarah ke bisnis atau bersifat komersial karena terdapat fitur yang bayar dan membayar.
+3.	Dampak Metode Pembelajaran Online Terhadap Dunia Pendidikan</p>
+<p>Dalam dunia pendidikan, pemanfaatan teknologi juga berdampak positif maupun berdampak negatif bagi siswa :
+a.	Dampak positif.</p>
+<ol>
+<li>E-learning bisa dijadikan metode pembelajaran informal.</li>
+</ol>
+<p>Pada era perkembangan ilmu teknologi dan informasi saat ini, e- learning sudah digunakan hampir lebih dari 75% dalam pembelajaran yang berbentuk informal. Hal ini mengubah pemikiran umum sebelumnya yang mana e-learning dianggap sebagai metode belajar</p>
+<p>formal semata, misalnya untuk belajar atau kursus tertentu. E-learning bisa dikategorikan ke dalam metode pembelajaran informal karena banyak yang terlibat dalam metode belajar ini, mengalami masalah dalam beraktifitas sehari-hari sehingga menggunakan metode pembelajaran online adalah pilihan yang cocok.
+2)	Dapat mengakses ilmu dari banyak sumber.</p>
+<p>Terdapat banyak sumber ilmu pada metode belajar E-learning, baik konten maupun manusia. E-learning yang merupakan sebuah aktivitas menggunakan media sosial yang menyediakan pengalaman serta pengetahuan baru melalui komunitas online sesama pengguna. Dengan menggunakan metode belajar e-learning maka banyak kesempatan semua orang untuk saling belajar. Dalam prosesnya, e- learning akan menumbuhkan interaksi sesama pengguna.
+3)	E-learning mendukung pembelajaran kelompok</p>
+<p>Metode belajar e-learning sangat mendukung belajar kelompok. Hal ini menyebabkan semua anggota dalam group e-learning bisa belajar bersama dimanapun berada. Pada saat belajar menggunakan e- learning, semua anggota kelompok bisa mengikuti belajar kelompok dari tempat masing-masing dengan cara online.
+4)	Efisien dalam menggunakan waktu.</p>
+<p>Metode belajar e-learning sangat efisien dalam penggunaan waktu. Pada metode belajar tatap muka, seorang guru akan menjelaskan terlebih dahulu materi kepada siswa dimana proses ini akan menyita cukup banyak waktu. Sedangkan dengan adanya proses e-learning mampu mempersingkat waktu tersebut hingga 70%.
+5)	Menghemat biaya pendidikan secara keseluruhan.</p>
+<p>Biaya yang digunakan pada metode pembelajaran e-learning sangat murah dibandingan metode tatap muka. Metode pembelajaran e- learning tidak membutuhkan biaya transportasi untuk menuju tempat belajar.</p>
+<ol start="6">
+<li>Kemudahan mengakses materi belajar.</li>
+</ol>
+<p>Materi pembelajaran pada metode e-learning dapat diakses oleh seseorang kapan saja dan dimana saja saat membutuhkannya. Namun dengan persyaratan materi tersebut belum dihapus oleh guru.
+7)	Menjangkau wilayah geogafis yang luas.</p>
+<p>Jaringan internet yang luas sangat mendukung metode belajar e-learning yang digunakan. Sehingga suatu kelas dapat dikuti oleh siswa dari manapun berada tanpa dibatasi oleh jarak dan geografis tertentu.
+8)	Siswa lebih mandiri.</p>
+<p>Pada proses pembelajaran menggunakan metode e-learning, para siswa tidak didampingi secara langsung oleh guru. Oleh sebab itu siswa akan dilatih dan harus mampu untuk bisa lebih mandiri dalam belajar. Pada prosesnya, siswa lebih berperan aktif dibandingkan dengan guru.
+9)	Siswa diberi kebebasan untuk berkreasi.</p>
+<p>Siswa diberi kebebasan untuk berkreasi. Siswa bebas mengaplikasikan cara belajar masing-masing.
+b.	Dampak negatif</p>
+<ol>
+<li>Kuranganya interaksi.</li>
+</ol>
+<p>Metode belajar e-learning yang bersifat online dan dari jauh serta dari tempat masing-masing siswa menyebabkan berkurangnya interaksi sehingga hal ini bisa membuat siswa kesulitan untuk bersosialisasi dengan lingkungan luar.
+2)	Mengabaikan aspek sosial.</p>
+<p>Pembelajaran dengan metode e-learning, membuat siswa lebih terdorong ke aspek komersial dan bisnis dibandingkan aspek sosial dan akademiknya. Hal ini terjadi karena pada prosesnya siswa hanya berpaku pada materi belajar tanpa melakukan interaksi dengan siswa lainnya.
+3)	Proses belajar cenderung kearah pelatihan dari pada pendidikan.</p>
+<p>Pada proses belajar dengan metode e-learning, siswa lebih terarah ke bentuk pelatihan dari pada pendidikan. Hal ini disebabkan siswa cenderung menerima materi latihan dan arahan-arahan dibandingkan dengan pendidikan biasa yang diterima langsung dari guru.
+4)	Penambahan tugas untuk pendidik.</p>
+<p>Pendidik dituntut untuk belajar mulai dari dasar cara mendidik menggunakan teknologi informasi dan komunikasi. Hal ini sangat mengganggu kemajuan proses belajar mengajar dibandingkan dengan metode tatap muka sebelumnya. Pendidik harus benar-benar menguasai terlebih dahulu teknik mengajar metode e-learning, yang mana hal tersebut menyita waktu. Berbeda dengan metode tatap muka yang sebelumnya sudah dikuasai oleh pendidik.
+5)	Cenderung gagal bagi siswa yang bermotivasi rendah.</p>
+<p>Siswa cenderung gagal dalam metode belajar ini apabila tidak ada motivasi serta semangat dari diri siswa itu sendiri. Pada metode belajar e-learning proses belajar siswa akan berada di luar pengawasan pendidik. Hal ini akan berdapak buruk bagi siswa yang semangat dan motivasi rendah.
+6)	Tergantung pada jaringan internet.</p>
+<p>Salah satu syarat utama agar proses belajar-mengajar metode e-learning bisa tercapai adalah harus adanya jaringan internet. Tanpa jaringan internet maka seorang siswa tidak akan bisa mengakses e- learning. Hal ini yang menjadi penghalang bagi siswa yang berada di daerah yang tidak terjangkau internet.
+7)	Keterampilan menggunakan internet yang belum cukup</p>
+<p>Peserta didik dan pedidik harus bisa menguasai dan memahami cara menggunakan internet dan teknologi pendukung agar dapat melakukan belajar mengajar menggunakan metode e-learning.
+8)	Kurangnya keterampilan komunikasi siswa.</p>
+<p>Proses belajar e-learning yang terus menerus akan menyebabkan keterampilan komunikasi siswa berkurang. Siswa yang</p>
+<p>hanya berinteraksi dengan siswa lainnya melalui perantara tanpa berinteraksi langsung. Hal ini tidak bisa mengembangkan keterampilan komunikasi seorang siswa sehingga seorang siswa akan kesulitan berkomunikasi apabila berinteraksi dengan orang lain di dunia nyata.
+9)	Berkurangnya praktik nyata.</p>
+<p>Pada umumnya metode e-learning lebih banyak memberikan teori dibandingkan praktek. Sedangkan untuk prakteknya sangat mustahil dilakukan karena pada saat belajar siswa tanpa didampingi oleh pendidik.</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://hugo-roan-six.vercel.app/post/komnas-3/"
+      ><span class="mr-1.5">←</span><span>Komputer dan Masyarakat - Pertemuan 3</span></a
+    >
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://hugo-roan-six.vercel.app/post/komnas-5/"
+      ><span>Komputer dan Masyarakat - Pertemuan 5</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link">Muhamad Aliyudin</a>
+  </div>
+  <a>Themes by Hugo️️</a
+  >️
+</footer>
+
+  </body>
+</html>

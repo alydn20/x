@@ -1,0 +1,29 @@
+baseURL = 'https://hugo-roan-six.vercel.app/'
+languageCode = 'en-us'
+title = 'Muhamad Aliyudin'
+disqusShortname = 'Aliyudin'   # use disqus comments
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'Malydn20'               # twitter.com/YOUR_TWITTER_ID
+  instagram = 'alydn2/'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'muhamad-aliyudin-b5b16620b/'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  mastodon = 'https://aliyudin.skom.id'
+
+
+  # home page profile
+  avatar = 'https://i.ibb.co/JQtXfM2/v914-ning-27.jpg'                 # gravatar email or image url
+  name = 'Muhamad Aliyudin'
+  bio = 'Blogger'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  graphCommentId = "Alydn"  # use graph comment (disqus alternative)
+  math = false                               # enable KaTex math typesetting globally
+  
